@@ -1,0 +1,108 @@
+EESchema Schematic File Version 4
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Display_Character:NHD-0420H1Z U?
+U 1 1 5DB3CC37
+P 4900 2650
+F 0 "U?" H 4900 1764 50  0000 C CNN
+F 1 "NHD-0420H1Z" H 4900 1673 50  0000 C CNN
+F 2 "Display:NHD-0420H1Z" H 4900 1750 50  0001 C CNN
+F 3 "http://www.newhavendisplay.com/specs/NHD-0420H1Z-FSW-GBW-33V3.pdf" H 5000 2550 50  0001 C CNN
+	1    4900 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J?
+U 1 1 5DB3CEC5
+P 3000 2150
+F 0 "J?" H 2920 1825 50  0000 C CNN
+F 1 "Conn_01x02" H 2920 1916 50  0000 C CNN
+F 2 "" H 3000 2150 50  0001 C CNN
+F 3 "~" H 3000 2150 50  0001 C CNN
+	1    3000 2150
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3200 2050 3450 2050
+$Comp
+L power:+5V #PWR?
+U 1 1 5DB3CFAA
+P 3450 2050
+F 0 "#PWR?" H 3450 1900 50  0001 C CNN
+F 1 "+5V" H 3465 2223 50  0000 C CNN
+F 2 "" H 3450 2050 50  0001 C CNN
+F 3 "" H 3450 2050 50  0001 C CNN
+	1    3450 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5DB3CFEF
+P 3450 2150
+F 0 "#PWR?" H 3450 1900 50  0001 C CNN
+F 1 "GND" H 3455 1977 50  0000 C CNN
+F 2 "" H 3450 2150 50  0001 C CNN
+F 3 "" H 3450 2150 50  0001 C CNN
+	1    3450 2150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3200 2150 3450 2150
+$Comp
+L Connector_Generic:Conn_01x10 J?
+U 1 1 5DB3D3D8
+P 3000 3050
+F 0 "J?" H 2920 2325 50  0000 C CNN
+F 1 "Conn_01x10" H 2920 2416 50  0000 C CNN
+F 2 "" H 3000 3050 50  0001 C CNN
+F 3 "~" H 3000 3050 50  0001 C CNN
+	1    3000 3050
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x16 J?
+U 1 1 5DB3D46A
+P 1800 2750
+F 0 "J?" H 1720 1725 50  0000 C CNN
+F 1 "Conn_01x16" H 1720 1816 50  0000 C CNN
+F 2 "" H 1800 2750 50  0001 C CNN
+F 3 "~" H 1800 2750 50  0001 C CNN
+	1    1800 2750
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x04 J?
+U 1 1 5DB3D6E0
+P 6550 2150
+F 0 "J?" H 6470 1725 50  0000 C CNN
+F 1 "Conn_01x04" H 6470 1816 50  0000 C CNN
+F 2 "" H 6550 2150 50  0001 C CNN
+F 3 "~" H 6550 2150 50  0001 C CNN
+	1    6550 2150
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x04 J?
+U 1 1 5DB3D77C
+P 6550 2800
+F 0 "J?" H 6470 2375 50  0000 C CNN
+F 1 "Conn_01x04" H 6470 2466 50  0000 C CNN
+F 2 "" H 6550 2800 50  0001 C CNN
+F 3 "~" H 6550 2800 50  0001 C CNN
+	1    6550 2800
+	-1   0    0    1   
+$EndComp
+$EndSCHEMATC
