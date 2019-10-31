@@ -5108,193 +5108,6 @@ BJT configuration in SOT23 package. MMBT2222 is the common NPN we use. Double ch
 </deviceset>
 </devicesets>
 </library>
-<library name="display-lcd" urn="urn:adsk.eagle:library:214">
-<description>&lt;b&gt;Hitachi, Data Modul, Tuxgraphics - LCD Displays&lt;/b&gt;&lt;p&gt;
-&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
-<packages>
-<package name="TUXGR_16X2_R2" urn="urn:adsk.eagle:footprint:13120/1" library_version="2">
-<description>&lt;b&gt;Tuxgraphics LCD display 16x2 characters&lt;/b&gt; reflective, without background light&lt;p&gt;
-Source: tuxgr_12x2_r2.pdf</description>
-<wire x1="-39.9" y1="17.9" x2="39.9" y2="17.9" width="0.2032" layer="21"/>
-<wire x1="39.9" y1="17.9" x2="39.9" y2="-17.9" width="0.2032" layer="21"/>
-<wire x1="39.9" y1="-17.9" x2="-39.9" y2="-17.9" width="0.2032" layer="21"/>
-<wire x1="-39.9" y1="-17.9" x2="-39.9" y2="17.9" width="0.2032" layer="21"/>
-<wire x1="-36.75" y1="12" x2="36.75" y2="12" width="0.2032" layer="21"/>
-<wire x1="36.75" y1="12" x2="36.75" y2="-12.6" width="0.2032" layer="21"/>
-<wire x1="36.75" y1="-12.6" x2="-36.75" y2="-12.6" width="0.2032" layer="21"/>
-<wire x1="-36.75" y1="-12.6" x2="-36.75" y2="12" width="0.2032" layer="21"/>
-<wire x1="-32.15" y1="6.5" x2="32.15" y2="6.5" width="0.2032" layer="21"/>
-<wire x1="32.15" y1="6.5" x2="32.15" y2="-7.1" width="0.2032" layer="21"/>
-<wire x1="32.15" y1="-7.1" x2="-32.15" y2="-7.1" width="0.2032" layer="21"/>
-<wire x1="-32.15" y1="-7.1" x2="-32.15" y2="6.5" width="0.2032" layer="21"/>
-<pad name="1" x="-32" y="15.5" drill="1" diameter="1.6764"/>
-<pad name="2" x="-29.46" y="15.5" drill="1" diameter="1.6764"/>
-<pad name="3" x="-26.92" y="15.5" drill="1" diameter="1.6764"/>
-<pad name="4" x="-24.38" y="15.5" drill="1" diameter="1.6764"/>
-<pad name="5" x="-21.84" y="15.5" drill="1" diameter="1.6764"/>
-<pad name="6" x="-19.3" y="15.5" drill="1" diameter="1.6764"/>
-<pad name="7" x="-16.76" y="15.5" drill="1" diameter="1.6764"/>
-<pad name="8" x="-14.22" y="15.5" drill="1" diameter="1.6764"/>
-<pad name="9" x="-11.68" y="15.5" drill="1" diameter="1.6764"/>
-<pad name="10" x="-9.14" y="15.5" drill="1" diameter="1.6764"/>
-<pad name="11" x="-6.6" y="15.5" drill="1" diameter="1.6764"/>
-<pad name="12" x="-4.06" y="15.5" drill="1" diameter="1.6764"/>
-<pad name="13" x="-1.52" y="15.5" drill="1" diameter="1.6764"/>
-<pad name="14" x="1.02" y="15.5" drill="1" diameter="1.6764"/>
-<pad name="15" x="3.56" y="15.5" drill="1" diameter="1.6764"/>
-<pad name="16" x="6.1" y="15.5" drill="1" diameter="1.6764"/>
-<text x="-38.1" y="18.415" size="1.27" layer="25">&gt;NAME</text>
-<text x="0.635" y="18.415" size="1.27" layer="27">&gt;VALUE</text>
-<rectangle x1="-28.85" y1="0.1" x2="-25.9" y2="4.45" layer="21"/>
-<rectangle x1="-28.85" y1="-5.05" x2="-25.9" y2="-0.7" layer="21"/>
-<rectangle x1="-25.2" y1="0.1" x2="-22.25" y2="4.45" layer="21"/>
-<rectangle x1="-25.2" y1="-5.05" x2="-22.25" y2="-0.7" layer="21"/>
-<rectangle x1="-21.55" y1="0.1" x2="-18.6" y2="4.45" layer="21"/>
-<rectangle x1="-21.55" y1="-5.05" x2="-18.6" y2="-0.7" layer="21"/>
-<rectangle x1="-17.9" y1="0.1" x2="-14.95" y2="4.45" layer="21"/>
-<rectangle x1="-17.9" y1="-5.05" x2="-14.95" y2="-0.7" layer="21"/>
-<rectangle x1="-14.25" y1="0.1" x2="-11.3" y2="4.45" layer="21"/>
-<rectangle x1="-14.25" y1="-5.05" x2="-11.3" y2="-0.7" layer="21"/>
-<rectangle x1="-10.6" y1="0.1" x2="-7.65" y2="4.45" layer="21"/>
-<rectangle x1="-10.6" y1="-5.05" x2="-7.65" y2="-0.7" layer="21"/>
-<rectangle x1="-6.95" y1="0.1" x2="-4" y2="4.45" layer="21"/>
-<rectangle x1="-6.95" y1="-5.05" x2="-4" y2="-0.7" layer="21"/>
-<rectangle x1="-3.3" y1="0.1" x2="-0.35" y2="4.45" layer="21"/>
-<rectangle x1="-3.3" y1="-5.05" x2="-0.35" y2="-0.7" layer="21"/>
-<rectangle x1="0.35" y1="0.1" x2="3.3" y2="4.45" layer="21"/>
-<rectangle x1="0.35" y1="-5.05" x2="3.3" y2="-0.7" layer="21"/>
-<rectangle x1="4" y1="0.1" x2="6.95" y2="4.45" layer="21"/>
-<rectangle x1="4" y1="-5.05" x2="6.95" y2="-0.7" layer="21"/>
-<rectangle x1="7.65" y1="0.1" x2="10.6" y2="4.45" layer="21"/>
-<rectangle x1="7.65" y1="-5.05" x2="10.6" y2="-0.7" layer="21"/>
-<rectangle x1="11.3" y1="0.1" x2="14.25" y2="4.45" layer="21"/>
-<rectangle x1="11.3" y1="-5.05" x2="14.25" y2="-0.7" layer="21"/>
-<rectangle x1="14.95" y1="0.1" x2="17.9" y2="4.45" layer="21"/>
-<rectangle x1="14.95" y1="-5.05" x2="17.9" y2="-0.7" layer="21"/>
-<rectangle x1="18.6" y1="0.1" x2="21.55" y2="4.45" layer="21"/>
-<rectangle x1="18.6" y1="-5.05" x2="21.55" y2="-0.7" layer="21"/>
-<rectangle x1="22.25" y1="0.1" x2="25.2" y2="4.45" layer="21"/>
-<rectangle x1="22.25" y1="-5.05" x2="25.2" y2="-0.7" layer="21"/>
-<rectangle x1="25.9" y1="0.1" x2="28.85" y2="4.45" layer="21"/>
-<rectangle x1="25.9" y1="-5.05" x2="28.85" y2="-0.7" layer="21"/>
-<hole x="-37.5" y="-15.5" drill="2.5"/>
-<hole x="37.5" y="-15.5" drill="2.5"/>
-<hole x="-37.5" y="15.5" drill="2.5"/>
-<hole x="37.5" y="15.5" drill="2.5"/>
-</package>
-</packages>
-<packages3d>
-<package3d name="TUXGR_16X2_R2" urn="urn:adsk.eagle:package:13139/1" type="box" library_version="2">
-<description>Tuxgraphics LCD display 16x2 characters reflective, without background light
-Source: tuxgr_12x2_r2.pdf</description>
-<packageinstances>
-<packageinstance name="TUXGR_16X2_R2"/>
-</packageinstances>
-</package3d>
-</packages3d>
-<symbols>
-<symbol name="TUXGR_16X2_R2" urn="urn:adsk.eagle:symbol:13119/1" library_version="2">
-<wire x1="-20.32" y1="-7.62" x2="22.86" y2="-7.62" width="0.2032" layer="94"/>
-<wire x1="22.86" y1="-7.62" x2="22.86" y2="12.7" width="0.2032" layer="94"/>
-<wire x1="22.86" y1="12.7" x2="-20.32" y2="12.7" width="0.2032" layer="94"/>
-<wire x1="-20.32" y1="12.7" x2="-20.32" y2="-7.62" width="0.2032" layer="94"/>
-<text x="-10.16" y="10.668" size="1.524" layer="94">LCD DISPLAY 16x2</text>
-<text x="-20.32" y="13.97" size="1.778" layer="95">&gt;NAME</text>
-<text x="-1.27" y="13.97" size="1.778" layer="96">&gt;VALUE</text>
-<rectangle x1="-19.05" y1="6.604" x2="-16.764" y2="10.16" layer="94"/>
-<rectangle x1="-19.05" y1="2.54" x2="-16.764" y2="6.096" layer="94"/>
-<rectangle x1="-16.51" y1="6.604" x2="-14.224" y2="10.16" layer="94"/>
-<rectangle x1="-16.51" y1="2.54" x2="-14.224" y2="6.096" layer="94"/>
-<rectangle x1="-13.97" y1="6.604" x2="-11.684" y2="10.16" layer="94"/>
-<rectangle x1="-13.97" y1="2.54" x2="-11.684" y2="6.096" layer="94"/>
-<rectangle x1="-11.43" y1="6.604" x2="-9.144" y2="10.16" layer="94"/>
-<rectangle x1="-11.43" y1="2.54" x2="-9.144" y2="6.096" layer="94"/>
-<rectangle x1="-8.89" y1="6.604" x2="-6.604" y2="10.16" layer="94"/>
-<rectangle x1="-8.89" y1="2.54" x2="-6.604" y2="6.096" layer="94"/>
-<rectangle x1="-6.35" y1="6.604" x2="-4.064" y2="10.16" layer="94"/>
-<rectangle x1="-6.35" y1="2.54" x2="-4.064" y2="6.096" layer="94"/>
-<rectangle x1="-3.81" y1="6.604" x2="-1.524" y2="10.16" layer="94"/>
-<rectangle x1="-3.81" y1="2.54" x2="-1.524" y2="6.096" layer="94"/>
-<rectangle x1="-1.27" y1="6.604" x2="1.016" y2="10.16" layer="94"/>
-<rectangle x1="-1.27" y1="2.54" x2="1.016" y2="6.096" layer="94"/>
-<rectangle x1="1.27" y1="6.604" x2="3.556" y2="10.16" layer="94"/>
-<rectangle x1="1.27" y1="2.54" x2="3.556" y2="6.096" layer="94"/>
-<rectangle x1="3.81" y1="6.604" x2="6.096" y2="10.16" layer="94"/>
-<rectangle x1="3.81" y1="2.54" x2="6.096" y2="6.096" layer="94"/>
-<rectangle x1="6.35" y1="6.604" x2="8.636" y2="10.16" layer="94"/>
-<rectangle x1="6.35" y1="2.54" x2="8.636" y2="6.096" layer="94"/>
-<rectangle x1="8.89" y1="6.604" x2="11.176" y2="10.16" layer="94"/>
-<rectangle x1="8.89" y1="2.54" x2="11.176" y2="6.096" layer="94"/>
-<rectangle x1="11.43" y1="6.604" x2="13.716" y2="10.16" layer="94"/>
-<rectangle x1="11.43" y1="2.54" x2="13.716" y2="6.096" layer="94"/>
-<rectangle x1="13.97" y1="6.604" x2="16.256" y2="10.16" layer="94"/>
-<rectangle x1="13.97" y1="2.54" x2="16.256" y2="6.096" layer="94"/>
-<rectangle x1="16.51" y1="6.604" x2="18.796" y2="10.16" layer="94"/>
-<rectangle x1="16.51" y1="2.54" x2="18.796" y2="6.096" layer="94"/>
-<rectangle x1="19.05" y1="6.604" x2="21.336" y2="10.16" layer="94"/>
-<rectangle x1="19.05" y1="2.54" x2="21.336" y2="6.096" layer="94"/>
-<pin name="GND" x="-17.78" y="-10.16" length="short" direction="pwr" rot="R90"/>
-<pin name="VCC" x="-15.24" y="-10.16" length="short" direction="pwr" rot="R90"/>
-<pin name="CONTR" x="-12.7" y="-10.16" length="short" direction="in" rot="R90"/>
-<pin name="RS" x="-10.16" y="-10.16" length="short" direction="in" rot="R90"/>
-<pin name="R/W" x="-7.62" y="-10.16" length="short" direction="in" rot="R90"/>
-<pin name="E" x="-5.08" y="-10.16" length="short" direction="in" rot="R90"/>
-<pin name="D0" x="-2.54" y="-10.16" length="short" direction="in" rot="R90"/>
-<pin name="D1" x="0" y="-10.16" length="short" direction="in" rot="R90"/>
-<pin name="D2" x="2.54" y="-10.16" length="short" direction="in" rot="R90"/>
-<pin name="D3" x="5.08" y="-10.16" length="short" direction="in" rot="R90"/>
-<pin name="D4" x="7.62" y="-10.16" length="short" direction="in" rot="R90"/>
-<pin name="D5" x="10.16" y="-10.16" length="short" direction="in" rot="R90"/>
-<pin name="D6" x="12.7" y="-10.16" length="short" direction="in" rot="R90"/>
-<pin name="D7" x="15.24" y="-10.16" length="short" direction="in" rot="R90"/>
-<pin name="NC@1" x="17.78" y="-10.16" length="short" direction="nc" rot="R90"/>
-<pin name="NC@2" x="20.32" y="-10.16" length="short" direction="nc" rot="R90"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="TUXGR_16X2_R2" urn="urn:adsk.eagle:component:13152/2" prefix="DIS" library_version="2">
-<description>&lt;b&gt;Tuxgraphics LCD display 16x2 characters&lt;/b&gt; reflective, without background light&lt;p&gt;
-Source: tuxgr_12x2_r2.pdf</description>
-<gates>
-<gate name="G$1" symbol="TUXGR_16X2_R2" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="TUXGR_16X2_R2">
-<connects>
-<connect gate="G$1" pin="CONTR" pad="3"/>
-<connect gate="G$1" pin="D0" pad="7"/>
-<connect gate="G$1" pin="D1" pad="8"/>
-<connect gate="G$1" pin="D2" pad="9"/>
-<connect gate="G$1" pin="D3" pad="10"/>
-<connect gate="G$1" pin="D4" pad="11"/>
-<connect gate="G$1" pin="D5" pad="12"/>
-<connect gate="G$1" pin="D6" pad="13"/>
-<connect gate="G$1" pin="D7" pad="14"/>
-<connect gate="G$1" pin="E" pad="6"/>
-<connect gate="G$1" pin="GND" pad="1"/>
-<connect gate="G$1" pin="NC@1" pad="15"/>
-<connect gate="G$1" pin="NC@2" pad="16"/>
-<connect gate="G$1" pin="R/W" pad="5"/>
-<connect gate="G$1" pin="RS" pad="4"/>
-<connect gate="G$1" pin="VCC" pad="2"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:13139/1"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="unknown" constant="no"/>
-<attribute name="POPULARITY" value="5" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 </libraries>
 <attributes>
 <attribute name="COMPANY" value="ADAFRUIT INDUSTRIES"/>
@@ -5377,7 +5190,6 @@ Source: tuxgr_12x2_r2.pdf</description>
 <part name="C4" library="microbuilder" deviceset="CAP_CERAMIC" device="0603_NO" value="1uF"/>
 <part name="U$42" library="microbuilder" deviceset="GND" device=""/>
 <part name="R4" library="microbuilder" deviceset="RESISTOR" device="_0603_NOOUT" value="4.7K"/>
-<part name="DIS1" library="display-lcd" library_urn="urn:adsk.eagle:library:214" deviceset="TUXGR_16X2_R2" device="" package3d_urn="urn:adsk.eagle:package:13139/1"/>
 </parts>
 <sheets>
 <sheet>
@@ -5650,10 +5462,6 @@ LED: IO13</text>
 <instance part="R4" gate="G$1" x="99.06" y="17.78" smashed="yes" rot="R180">
 <attribute name="NAME" x="99.06" y="15.24" size="1.27" layer="95" font="vector" rot="R180" align="center"/>
 <attribute name="VALUE" x="99.06" y="17.78" size="1.016" layer="96" font="vector" ratio="15" rot="R180" align="center"/>
-</instance>
-<instance part="DIS1" gate="G$1" x="33.02" y="200.66" smashed="yes">
-<attribute name="NAME" x="12.7" y="214.63" size="1.778" layer="95"/>
-<attribute name="VALUE" x="31.75" y="214.63" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -6383,21 +6191,6 @@ LED: IO13</text>
 <note version="6.3" minversion="6.2.2" severity="warning">
 Since Version 6.2.2 text objects can contain more than one line,
 which will not be processed correctly with this version.
-</note>
-<note version="8.2" severity="warning">
-Since Version 8.2, EAGLE supports online libraries. The ids
-of those online libraries will not be understood (or retained)
-with this version.
-</note>
-<note version="8.3" severity="warning">
-Since Version 8.3, EAGLE supports URNs for individual library
-assets (packages, symbols, and devices). The URNs of those assets
-will not be understood (or retained) with this version.
-</note>
-<note version="8.3" severity="warning">
-Since Version 8.3, EAGLE supports the association of 3D packages
-with devices in libraries, schematics, and board files. Those 3D
-packages will not be understood (or retained) with this version.
 </note>
 </compatibility>
 </eagle>
